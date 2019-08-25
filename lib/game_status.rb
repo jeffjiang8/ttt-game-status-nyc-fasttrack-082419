@@ -34,7 +34,7 @@ WIN_COMBINATIONS = [
     full?(board) && !won?(board)
   end
   
-  def over(board)
+  def over?(board)
     won?(board) || full?(board)
   end 
   
